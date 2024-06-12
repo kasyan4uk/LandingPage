@@ -1,10 +1,8 @@
 import React from 'react';
 import "./Page.css";
 
-const Page = () => {
-  return (
-    <div>Page</div>
-  )
+const Page = ({ children }) => {
+  return <div className="page">{children}</div>
 }
 
 export default Page
