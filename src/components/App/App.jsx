@@ -1,6 +1,8 @@
 import React from 'react';
 import "./App.css";
 
+import "../../fonts/fonts.css"
+
 // components
 import Page from './../Page/Page';
 import Header from './../Header/Header';
