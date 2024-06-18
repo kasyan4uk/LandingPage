@@ -8,9 +8,9 @@ const Hero = () => {
     <section className="hero">
       <div className="hero__column">
         <h1 className="h1 hero__heading">
-          <span className="hero__header-gradient">Intelligent</span>
+          <span className="hero__heading-gradient">Intelligent</span>
           cloud-based{" "}
-          <span className="hero__header-gradient">note-taking</span>
+          <span className="hero__heading-gradient">note-taking</span>
           and collaboration tool
         </h1>
         <p className="text-reg hero__subheading">Experience the power of smart note-taking and transform the way you work today.</p>
