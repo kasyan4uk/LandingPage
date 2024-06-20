@@ -43,15 +43,51 @@ const App = () => {
         <img className="testimonial__quotes" src={doubleQuote} alt="quote" />
       </Testimonial>
       <Features />
-      <Testimonial></Testimonial>
+      <Testimonial>
+        <h5 className="h5 testimonial__heading">
+          The real-time synchronization and AI-powered organization have made our workflow more efficient than ever.
+        </h5>
+        <div className="testimonial__author-section">
+          <p className="text-reg testimonial__author">Sarah Johnson</p>
+          <p className="text-reg testimonial__organization">TechSavvy Solutions</p>
+        </div>
+        <img className="testimonial__quotes" src={doubleQuote} alt="quote" />
+      </Testimonial>
       <Video />
-      <Testimonial></Testimonial>
+      <Testimonial>
+        <h5 className="h5 testimonial__heading">
+          The real-time synchronization and AI-powered organization have made our workflow more efficient than ever.
+        </h5>
+        <div className="testimonial__author-section">
+          <p className="text-reg testimonial__author">Sarah Johnson</p>
+          <p className="text-reg testimonial__organization">TechSavvy Solutions</p>
+        </div>
+        <img className="testimonial__quotes" src={doubleQuote} alt="quote" />
+      </Testimonial>
       <Pricing />
-      <Testimonial></Testimonial>
+      <Testimonial>
+        <h5 className="h5 testimonial__heading">
+          The real-time synchronization and AI-powered organization have made our workflow more efficient than ever.
+        </h5>
+        <div className="testimonial__author-section">
+          <p className="text-reg testimonial__author">Sarah Johnson</p>
+          <p className="text-reg testimonial__organization">TechSavvy Solutions</p>
+        </div>
+        <img className="testimonial__quotes" src={doubleQuote} alt="quote" />
+      </Testimonial>
       <FAQ>
         <Accordion />
       </FAQ>
-      <Testimonial></Testimonial>
+      <Testimonial>
+        <h5 className="h5 testimonial__heading">
+          The real-time synchronization and AI-powered organization have made our workflow more efficient than ever.
+        </h5>
+        <div className="testimonial__author-section">
+          <p className="text-reg testimonial__author">Sarah Johnson</p>
+          <p className="text-reg testimonial__organization">TechSavvy Solutions</p>
+        </div>
+        <img className="testimonial__quotes" src={doubleQuote} alt="quote" />
+      </Testimonial>
       <CTA />
       <Footer />
     </Page>
