@@ -1,9 +1,20 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import "./FAQ.css";
 
-const FAQ = () => {
+const FAQ = ({ children }) => {
   return (
-    <div>FAQ</div>
+    <section className="faq">
+      <div className="faq__heading-section">
+        <h2 className="h2 faq__heading">Frequently Asked Question</h2>
+        <p className="text-med faq__description">
+          We've compiled a list of the most frequently asked questions about
+          SmartNotes to help you get the information you need. If you have any
+          other questions, feel free to reach out to our support team.
+        </p>
+      </div>
+      {children}
+    </section>
   )
 }
 
